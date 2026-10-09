@@ -3,7 +3,7 @@ module github.com/thomaslaurenson/cellmate
 go 1.26
 
 require (
-	github.com/hajimehoshi/ebiten/v2 v2.10.2
+	github.com/hajimehoshi/ebiten/v2 v2.10.4
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.9
 	github.com/srwiley/oksvg v0.0.0-20221011165216-be6e8873101c
