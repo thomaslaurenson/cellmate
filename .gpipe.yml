@@ -1,0 +1,18 @@
+binary: cellmate
+
+platforms:
+  linux_amd64:
+    path: ./dist/cellmate-linux-x86_64
+    name: cellmate-linux-x86_64
+  linux_arm64:
+    path: ./dist/cellmate-linux-aarch64
+    name: cellmate-linux-aarch64
+  darwin_amd64:
+    path: ./dist/cellmate-darwin-x86_64
+    name: cellmate-darwin-x86_64
+  darwin_arm64:
+    path: ./dist/cellmate-darwin-aarch64
+    name: cellmate-darwin-aarch64
+  windows_amd64:
+    path: ./dist/cellmate-windows-x86_64.exe
+    name: cellmate-windows-x86_64.exe

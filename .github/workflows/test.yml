@@ -1,0 +1,23 @@
+name: Test
+
+on:
+  workflow_call:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - run: make test
+
+      # The browser build is compiled by a different toolchain target and run
+      # by Node, which the runner already has.
+      - run: make test_wasm
