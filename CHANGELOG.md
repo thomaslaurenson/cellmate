@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 - 2026-10-23
+
+### Updated
+
+- Build release binaries with the newest Go 1.27 patch release
+- Update Ebitengine, the Go image library and other dependencies
+
 ## 0.1.0 - 2026-10-09
 
 ### Added

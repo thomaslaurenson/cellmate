@@ -1,8 +1,6 @@
 module github.com/thomaslaurenson/cellmate
 
-go 1.26.0
-
-toolchain go1.26.9
+go 1.27
 
 require (
 	github.com/hajimehoshi/ebiten/v2 v2.10.5
@@ -16,9 +14,9 @@ require (
 require (
 	github.com/ebitengine/gomobile v0.0.0-20260820040257-d11f821a26a6 // indirect
 	github.com/ebitengine/hideconsole v1.0.0 // indirect
-	github.com/ebitengine/purego v0.11.0 // indirect
+	github.com/ebitengine/purego v0.11.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	golang.org/x/net v0.0.0-20211118161319-6a13c67c3ce4 // indirect
+	golang.org/x/net v0.61.0 // indirect
 	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
